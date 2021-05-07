@@ -21,7 +21,7 @@ Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/u
 
 ## API and Data Sample
 
-Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
+[Airtable](https://airtable.com/tblVdYra50RUXbwsO/viwGTXbs7mu7mCw0i?blocks=hide)
 
 ```json
 {
