@@ -10,7 +10,11 @@ Body by Boba (Bobady)
 
 ## Wireframes
 
-[Wireframe](https://whimsical.com/body-by-boba-HZAwLvn8goY7ffdwzPoEnY)
+[Body by Boba - Desktop Wireframe](https://whimsical.com/body-by-boba-desktop-wireframe-HZAwLvn8goY7ffdwzPoEnY)
+
+[Body by Boba - Tablet Wireframe](https://whimsical.com/body-by-boba-tablet-wireframe-CicXVe7nPXsS7gdMbdgTX6)
+
+[Body by Boba - Mobile Wireframe](https://whimsical.com/body-by-boba-mobile-wireframe-2Ha87cVSYLxVNyhfL19QEs)
 
 ## Component Hierarchy
 [Coponent Hierarchy](https://app.diagrams.net/#G1JeKUL2puDy5a3u7yzueAQ4atEfwD1g-t)
@@ -78,8 +82,6 @@ Body by Boba (Bobady)
 |July 17| Presentations | Incomplete
 
 ## Timeframes
-
-[Timeframe]
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
