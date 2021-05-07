@@ -99,7 +99,7 @@ records: [
 | CSS for visual styling | H | 3hrs| - | - |
 | Grid/Flexbox for app layout styling | H | 3hrs| - | - |
 | Responsive design (desktop, tablet, and mobile) | H | 3hrs| - | - |
-| Total | H | 33hrs| - | - |
+| Total | H | 33hrs| - | - | 
 
 ## SWOT Analysis
 
