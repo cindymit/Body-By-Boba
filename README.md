@@ -6,7 +6,7 @@ Body by Boba (Bobady)
 
 ## Project Description
 
-'Body by Boba' is an app that bring's Boba lovers together! Body by Boba knows that you work hard, and a result YOU SHOULD DRINK (Boba) HARDER! Submit your favorite drink in the form to help others discover new favorites! Find a new drink combination by using the drop down menu to filter through the current entries and omit what you like or don't like (Ew, matcha? YUCK!). Let's get you started on a new boba journey!
+'Body by Boba' is an app that bring's Boba lovers together! Body by Boba knows that you work hard, and a result YOU SHOULD DRINK (Boba) HARDER! Click the logo to enter the app! Submit your favorite drink in the form to help others discover new favorites! Find a new drink combination by using the drop down menu to filter through the current entries and omit what you like or don't like (Ew, matcha? YUCK!). Let's get you started on a new boba journey!
 
 ## Wireframes
 
@@ -52,27 +52,24 @@ records: [
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Add home page link.
-- Add form to homepage.
-- Form contains input area for drink name.
-- Dropdown menus for base, milk, toppings, and sugar percentage.
-- Add UseHistory to redirect to homepage.
-- Render submitted input on homepage below form.
+- Welcome page with link to home page.
+- Add Navbar with homepage link.
+- Make Axios Call to grab and render Airtable data
+- Allow users to "create-a-recipe"/POST new data.
+- Add form to homepage with name input and drop down menus for base, milk, toppings, and sugar percentage.
+- Render submitted user input on homepage below form.
+- Use CSS for visual styling.
+- Use Grid/Flexbox to style app layout.
+- Responsive design for desktop, tablet, and mobile.
 
 #### PostMVP  
 
 - Link second API for user reviews.
-- Add welcome page with link to home page.
 - Add history of boba page.
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -86,15 +83,15 @@ This schedule will be used to keep track of your progress throughout the week an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
+[Timeframe]
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Project Research and Approval | H | 3hrs| - | - |
+| Creating Airtable API and data | H | 3hrs| - | - |
+| Adding Form | H | 3hrs| - | - |
+| Working with API | H | 3hrs| - | - |
+| Total | H | 6hrs| - | - |
 
 ## SWOT Analysis
 
