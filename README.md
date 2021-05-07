@@ -56,16 +56,17 @@ Body by Boba (Bobady)
 
 - Welcome page with link to home page.
 - Add Navbar with homepage link.
-- Make Axios Call to grab and render Airtable data
+- Make Axios Call to GET and render Airtable data
 - Allow users to "create-a-recipe"/POST new data.
 - Add form to homepage with name input and drop down menus for base, milk, toppings, and sugar percentage.
-- Render submitted user input on homepage below form.
+- Render submitted user input on homepage next form.
 - Use CSS for visual styling.
 - Use Grid/Flexbox to style app layout.
 - Responsive design for desktop, tablet, and mobile.
 
 #### PostMVP  
 
+- Allow users to filter by search input.
 - Link second API for user reviews.
 - Add history of boba page.
 
