@@ -26,28 +26,28 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 ```json
 {
 records: [
-{
-id: "recTJvV0olAPj9VxS",
-fields: {
-name: "Classic Milk Tea",
-base: "Black Tea",
-sugar_percentage: 0.75,
-milk: "YES",
-toppings: "Pudding"
-},
-createdTime: "2021-05-06T19:12:16.000Z"
-},
-{
-id: "recTgy982DDkjIz2P",
-fields: {
-name: "Taro Milk Tea",
-base: "Black Tea",
-sugar_percentage: 1,
-milk: "YES",
-toppings: "Tapioca Pearls"
-},
-createdTime: "2021-05-06T19:12:16.000Z"
-}
+  {
+    id: "recTJvV0olAPj9VxS",
+    fields: {
+      name: "Classic Milk Tea",
+      base: "Black Tea",
+      sugar_percentage: 0.75,
+      milk: "YES",
+      toppings: "Pudding"
+    },
+    createdTime: "2021-05-06T19:12:16.000Z"
+  },
+  {
+    id: "recTgy982DDkjIz2P",
+    fields: {
+      name: "Taro Milk Tea",
+      base: "Black Tea",
+      sugar_percentage: 1,
+      milk: "YES",
+      toppings: "Tapioca Pearls"
+   },
+   createdTime: "2021-05-06T19:12:16.000Z"
+ }
 ```
 
 ### MVP/PostMVP
