@@ -87,18 +87,26 @@ records: [
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Research and Approval | H | 3hrs| - | - |
-| Creating Airtable API and data | H | 3hrs| - | - |
-| Adding Form | H | 3hrs| - | - |
 | Working with API | H | 3hrs| - | - |
-| Total | H | 6hrs| - | - |
+| Project Research and Approval | H | 3hrs| - | - |
+| Basic React app setup | H | 2hrs| - | - |
+| Welcome Page | H | 2hrs| - | - |
+| Navbar | H | 2hrs| - | - |
+| Airtable AXIOS call/data render | H | 3hrs| - | - |
+| Airtable AXIOS Post request | H | 3hrs| - | - |
+| "Create-A-Recipe" Form | H | 3hrs| - | - |
+| Base/Milk/Topping/Sugar % drop down menus | H | 3hrs| - | - |
+| CSS for visual styling | H | 3hrs| - | - |
+| Grid/Flexbox for app layout styling | H | 3hrs| - | - |
+| Responsive design (desktop, tablet, and mobile) | H | 3hrs| - | - |
+| Total | H | 33hrs| - | - |
 
 ## SWOT Analysis
 
-### Strengths:
+### Strengths: I definitely think I understand React enough to be able to build an app with it. I can set up my jsx files as needed and import necessary files and tools. In terms of complexity, I can definitely meet the minimum requirement for setting up a functional app.
 
-### Weaknesses:
+### Weaknesses: I get thrown for a loop when I am asked to incorporate new array methods (e.g. React-And-Array-Methods HW) or in the most recent case, working in ES6 classes. In order to overcome this, I am revisiting the class repos and lab code-alongs.
 
-### Opportunities:
+### Opportunities: I would like to take the oppurtunity to use this project to showcase more complexity in my coding. For example, I am incorporating pre-determined options for base, milk, topping, and sugar percentage in a drop down menu as opposed to an empty input box.
 
-### Threats:
+### Threats: Time management will definitely be a threat for me this week. I will do my best to allocate a certain amount of time to a singular part of my project. I will also reach out for support in a timely fashion, especially if I have been taking too long trying to resolve certain errors.
