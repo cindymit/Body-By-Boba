@@ -10,11 +10,7 @@ Body by Boba (Bobady)
 
 ## Wireframes
 
-[Desktop]
-
-[Tablet]
-
-[Mobile]
+[Wireframe](https://whimsical.com/body-by-boba-HZAwLvn8goY7ffdwzPoEnY)
 
 ## Component Hierarchy
 [Coponent Hierarchy](https://app.diagrams.net/#G1JeKUL2puDy5a3u7yzueAQ4atEfwD1g-t)
