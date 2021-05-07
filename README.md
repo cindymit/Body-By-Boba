@@ -57,15 +57,18 @@ The functionality will then be divided into two separate lists: MVP and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Add home page link.
+- Add form to homepage.
+- Form contains input area for drink name.
+- Dropdown menus for base, milk, toppings, and sugar percentage.
+- Add UseHistory to redirect to homepage.
+- Render submitted input on homepage below form.
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Link second API for user reviews.
+- Add welcome page with link to home page.
+- Add history of boba page.
 
 ## Project Schedule
 
