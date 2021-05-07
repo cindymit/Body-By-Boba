@@ -25,29 +25,29 @@ Body by Boba (Bobady)
 
 ```json
 {
-records: [
-  {
-    id: "recTJvV0olAPj9VxS",
-    fields: {
-      name: "Classic Milk Tea",
-      base: "Black Tea",
-      sugar_percentage: 0.75,
-      milk: "YES",
-      toppings: "Pudding"
-    },
-    createdTime: "2021-05-06T19:12:16.000Z"
-  },
-  {
-    id: "recTgy982DDkjIz2P",
-    fields: {
-      name: "Taro Milk Tea",
-      base: "Black Tea",
-      sugar_percentage: 1,
-      milk: "YES",
-      toppings: "Tapioca Pearls"
-   },
-   createdTime: "2021-05-06T19:12:16.000Z"
- }
+    "records": [
+        {
+            "id": "recTgy982DDkjIz2P",
+            "fields": {
+                "user": "Britney Spears",
+                "base": "Black Tea",
+                "sugar_percentage": 1,
+                "milk": "YES",
+                "toppings": "Tapioca Pearls",
+                "name": "Taro Milk Tea"
+            },
+            "createdTime": "2021-05-06T19:12:16.000Z"
+        },
+        {
+            "id": "recTJvV0olAPj9VxS",
+            "fields": {
+                "user": "Daniel Levy",
+                "base": "Black Tea",
+                "sugar_percentage": 0.75,
+                "milk": "YES",
+                "toppings": "Pudding",
+                "name": "Classic Milk Tea"
+            },
 ```
 
 ### MVP/PostMVP
