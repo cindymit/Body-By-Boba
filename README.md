@@ -95,11 +95,12 @@ Body by Boba (Bobady)
 | Airtable AXIOS call/data render | H | 3hrs| - | - |
 | Airtable AXIOS Post request | H | 3hrs| - | - |
 | "Create-A-Recipe" Form | H | 3hrs| - | - |
+| User and drink input area | H | 2hrs| - | - |
 | Base/Milk/Topping/Sugar % drop down menus | H | 3hrs| - | - |
 | CSS for visual styling | H | 3hrs| - | - |
 | Grid/Flexbox for app layout styling | H | 3hrs| - | - |
 | Responsive design (desktop, tablet, and mobile) | H | 3hrs| - | - |
-| Total | H | 33hrs| - | - | 
+| Total | H | 35hrs| - | - | 
 
 ## SWOT Analysis
 
