@@ -17,7 +17,7 @@ Body by Boba (Bobady)
 [Mobile]
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+[Coponent Hierarchy](https://app.diagrams.net/#G1JeKUL2puDy5a3u7yzueAQ4atEfwD1g-t)
 
 ## API and Data Sample
 
