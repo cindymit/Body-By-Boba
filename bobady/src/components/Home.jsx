@@ -1,6 +1,10 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
-    <h3>Test</h3>
+    <div className="welcome">
+      <Link to="/home">CLICK HERE!</Link>
+    </div>
   )
 }
 
