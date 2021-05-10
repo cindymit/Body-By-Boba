@@ -22,17 +22,27 @@ function App() {
 
   return (
     <div className="App">
-      <Nav />
-      <Route exact path="/">
+
+      <header>
+        <Nav />
+      </header>
+      <p>Introduction!</p>
+      <div className="data">
+        <div className="data-div">
+        <Route exact path="/">
         <main>
           {bobas.map((boba) => (
             <Boba boba={boba} setToggleFetch={setToggleFetch} />
           ))}
-        </main>
-      </Route>
-      <Route path="/new">
+          </main>
+        </Route>
+        </div>
+      
+      <Route path="/">
         <Form bobas={bobas} setToggleFetch={setToggleFetch} />
-      </Route>
+        </Route>
+      </div>
+
     </div>
   );
 }
