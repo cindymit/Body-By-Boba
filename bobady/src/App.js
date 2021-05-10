@@ -6,6 +6,8 @@ import Nav from "./components/Nav";
 import Boba from "./components/Boba";
 import Form from "./components/Form";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Drinks from "./components/Drinks";
 import './App.css';
 
 function App() {
@@ -23,27 +25,12 @@ function App() {
 
   return (
     <div className="App">
-
-      <header>
-        <Nav />
-      </header>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem dolor, aliquet ut posuere vitae, pretium nec massa. Ut varius sapien vel velit mollis facilisis. Cras leo diam, consequat id nulla sed, imperdiet tempor mi. Ut sollicitudin nisi volutpat nunc lacinia efficitur. Nullam interdum pharetra nisl, ut suscipit lectus scelerisque lobortis. Proin sit amet odio velit. Maecenas mattis diam non arcu eleifend, et congue magna sollicitudin.</p>
-      <div className="data">
-        <div className="data-div">
         <Route exact path="/">
-        <main>
-          {bobas.map((boba) => (
-            <Boba boba={boba} setToggleFetch={setToggleFetch} />
-          ))}
-          </main>
-        </Route>
-        </div>
-      
-      <Route path="/">
-        <Form bobas={bobas} setToggleFetch={setToggleFetch} />
-        </Route>
-      </div>
-      <Footer />
+          <Home />
+          </Route>
+          <Route path="/home">
+            <Drinks bobas={bobas} setToggleFetch={setToggleFetch}/>
+          </Route>
     </div>
   );
 }

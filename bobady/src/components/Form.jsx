@@ -48,6 +48,7 @@ function Form(props) {
 
     return (
       <div className="form-div">
+        <h3>↓Share your favorite drink combinations here! ↓</h3>
         <form onSubmit={handleSubmit}>
           <label htmlFor="user">Username: </label>
           <input
