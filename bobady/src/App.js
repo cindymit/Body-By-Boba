@@ -4,6 +4,7 @@ import axios from "axios";
 import { baseURL, config } from "./services";
 import Nav from "./components/Nav";
 import Boba from "./components/Boba";
+import Form from "./components/Form";
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   useEffect(() => {
     const fetchBobas = async () => {
       const resp = await axios.get(baseURL, config);
+      console.log(baseURL)
       setBobas(resp.data.records);
     }
     fetchBobas();
@@ -29,7 +31,7 @@ function App() {
         </main>
       </Route>
       <Route path="/new">
-        <h3>Create-A-Drink here!</h3>
+        <Form bobas={bobas} setToggleFetch={setToggleFetch} />
       </Route>
     </div>
   );
