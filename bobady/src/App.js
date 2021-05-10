@@ -26,7 +26,7 @@ function App() {
       <header>
         <Nav />
       </header>
-      <p>Introduction!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem dolor, aliquet ut posuere vitae, pretium nec massa. Ut varius sapien vel velit mollis facilisis. Cras leo diam, consequat id nulla sed, imperdiet tempor mi. Ut sollicitudin nisi volutpat nunc lacinia efficitur. Nullam interdum pharetra nisl, ut suscipit lectus scelerisque lobortis. Proin sit amet odio velit. Maecenas mattis diam non arcu eleifend, et congue magna sollicitudin.</p>
       <div className="data">
         <div className="data-div">
         <Route exact path="/">

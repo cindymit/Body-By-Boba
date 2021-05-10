@@ -10,6 +10,8 @@ body {
   text-align: right;
   width: auto;
   height: 150px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .links {
@@ -19,7 +21,7 @@ body {
 }
 
 .links:hover {
-  text-decoration: underline;
+  color: rgb(147,112,219);
 }
 
 p {
@@ -37,13 +39,30 @@ p {
   grid-row: 1 / span 1;
   height: 650px;
   text-overflow: ellipsis;
-  overflow: hidden;
+  overflow: scroll;
+  margin-left: 20px;
 }
 
 .form-div{
   border: 1px solid purple;
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
   height: 650px;
+  text-align: left;
 }
 
+.form-div form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px 10px 10px;
+}
+
+.boba-div h3 {
+  color: rgb(147,112,219);
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  text-shadow: 2px 2px lightgray;
+}
+
+.boba-div h4 {
+  font-family: 'Raleway', sans-serif;
+}

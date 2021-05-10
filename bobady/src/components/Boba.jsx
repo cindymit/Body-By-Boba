@@ -3,12 +3,8 @@ function Boba(props) {
 
   return (
     <div className="boba-div">
-      <h3>{user}</h3>
-      <h4>{name}</h4>
-      <h5>{base}</h5>
-      <h5>{milk}</h5>
-      <h5>{topping}</h5>
-      <h5>{sugar}</h5>
+      <h3>{user}'s {name} </h3>
+      <h4>({base}, {milk}, {topping}, and {sugar} sugar).</h4>
     </div>
   )
 }
