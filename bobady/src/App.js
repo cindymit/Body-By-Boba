@@ -3,10 +3,12 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "./services";
 import Nav from "./components/Nav";
+import Boba from "./components/Boba";
 import './App.css';
 
 function App() {
   const [bobas, setBobas] = useState([]);
+  const [toggleFetch, setToggleFetch] = useState(false);
 
   useEffect(() => {
     const fetchBobas = async () => {
@@ -14,14 +16,16 @@ function App() {
       setBobas(resp.data.records);
     }
     fetchBobas();
-  }, []);
+  }, [toggleFetch]);
 
   return (
     <div className="App">
       <Nav />
       <Route exact path="/">
         <main>
-          <h3>This is the home page!</h3>
+          {bobas.map((boba) => (
+            <Boba boba={boba} setToggleFetch={setToggleFetch} />
+          ))}
         </main>
       </Route>
       <Route path="/new">
