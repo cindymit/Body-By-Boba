@@ -48,7 +48,6 @@ function Form(props) {
 
     return (
       <div className="form-div">
-        
         <form onSubmit={handleSubmit}>
           <label htmlFor="user">Username: </label>
           <input
@@ -57,6 +56,7 @@ function Form(props) {
             value={user}
             onChange={(e) => setUser(e.target.value)}
           />
+
           <label htmlFor="name">Drink name: </label>
           <input
             type="text"
@@ -64,63 +64,43 @@ function Form(props) {
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
+
           <label htmlFor="base">Base: </label>
-          <select>
-            <option value="base_choice" onChange={(e) => setBase(e.target.value)}>-</option>
-            <option value="black tea" onChange={(e) => setBase(e.target.value)}>Black Tea</option>
-            <option value="green tea" onChange={(e) => setBase(e.target.value)}>Green Tea</option>
-            <option value="oolong tea" onChange={(e) => setBase(e.target.value)}>Oolong Tea</option>
-            <option value="milk" onChange={(e) => setBase(e.target.value)}>Milk</option>
+          <select onChange={(e) => setBase(e.target.value)}>
+            <option value="null_base">-</option>
+            <option value="Black Tea">Black Tea</option>
+            <option value="Green Tea">Green Tea</option>
+            <option value="Oolong Tea">Oolong Tea</option>
+            <option value="Milk">Milk</option>
           </select>
-          {/* <input
-            type="text"
-            id="base"
-            value={base}
-            onChange={(e) => setBase(e.target.value)}
-          /> */}
+
           <label htmlFor="milk">Milk: </label>
-          <select>
-          <option value="milk_choice" onChange={(e) => setBase(e.target.value)}>-</option>
-            <option value="Milk" onChange={(e) => setMilk(e.target.value)}>Milk</option>
-            <option value="No Milk" onChange={(e) => setMilk(e.target.value)}>No Milk</option>
+          <select onChange={(e) => setMilk(e.target.value)}>
+          <option value="null_milk" >-</option>
+            <option value="Milk">Milk</option>
+            <option value="No Milk">No Milk</option>
           </select>
-          {/* <input
-            type="text"
-            id="milk"
-            value={milk}
-            onChange={(e) => setMilk(e.target.value)}
-          /> */}
+
           <label htmlFor="topping">Topping: </label>
-          <select>
-            <option value="topping_choice" onChange={(e) => setTopping(e.target.value)}>-</option>
-            <option value="tapioca pearls" onChange={(e) => setTopping(e.target.value)}>Tapioca Pearls</option>
-            <option value="pudding" onChange={(e) => setTopping(e.target.value)}>Pudding</option>
-            <option value="aloe jelly" onChange={(e) => setTopping(e.target.value)}>Aloe Jelly</option>
-            <option value="milk cap" onChange={(e) => setTopping(e.target.value)}>Milk Cap</option>
-            <option value="none" onChange={(e) => setTopping(e.target.value)}>None</option>
+          <select onChange={(e) => setTopping(e.target.value)}>
+            <option value="null_topping">-</option>
+            <option value="Tapioca Pearls">Tapioca Pearls</option>
+            <option value="Pudding">Pudding</option>
+            <option value="Aloe Jelly">Aloe Jelly</option>
+            <option value="Milk Cap">Milk Cap</option>
+            <option value="No Topping">No Topping</option>
           </select>
-          {/* <input
-            type="text"
-            id="topping"
-            value={topping}
-            onChange={(e) => setTopping(e.target.value)}
-          /> */}
+
           <label htmlFor="sugar">Sugar %: </label>
-          <select>
-          <option value="sugar_choice" onChange={(e) => setSugar(e.target.value)}>-</option>
-            <option value="zero" onChange={(e) => setSugar(e.target.value)}>0%</option>
-            <option value="twenty_five" onChange={(e) => setSugar(e.target.value)}>25%</option>
-            <option value="fifty" onChange={(e) => setSugar(e.target.value)}>50%</option>
-            <option value="seventy_five" onChange={(e) => setSugar(e.target.value)}>75%</option>
-            <option value="one_hundred" onChange={(e) => setSugar(e.target.value)}>100%</option>
+          <select onChange={(e) => setSugar(e.target.value)}>
+          <option value="null_sugar">-</option>
+            <option value="0%">0%</option>
+            <option value="25%">25%</option>
+            <option value="50%">50%</option>
+            <option value="75%">75%</option>
+            <option value="100%">100%</option>
           </select>
-          {/* <input
-            type="text"
-            id="sugar"
-            value={sugar}
-            onChange={(e) => setSugar(e.target.value)}
-          /> */}
-          <button type="submit">DRINK UP!</button>
+          <button type="submit" className="btn">DRINK UP!</button>
         </form>
       </div>
     )

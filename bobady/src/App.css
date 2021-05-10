@@ -3,10 +3,10 @@ body {
   color: black;
   padding: 10px;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
-  border: 1px solid black;
   text-align: right;
   width: auto;
   height: 150px;
@@ -24,27 +24,21 @@ body {
   color: rgb(147,112,219);
 }
 
-p {
-  border: 1px solid orange;
-}
-
 .data {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .data-div{
-  border: 1px solid red;
   grid-column: 2 / span 2 ;
   grid-row: 1 / span 1;
   height: 650px;
   text-overflow: ellipsis;
-  overflow: scroll;
+  overflow: auto;
   margin-left: 20px;
 }
 
 .form-div{
-  border: 1px solid purple;
   height: 650px;
   text-align: left;
 }
@@ -54,6 +48,17 @@ p {
   flex-direction: column;
   width: 300px;
   margin: 10px 10px 10px;
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  border-radius: 6px;
+  background-color: rgb(245,245,245);
+}
+
+.btn:hover {
+  background-color: white;
 }
 
 .boba-div h3 {

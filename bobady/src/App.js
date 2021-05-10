@@ -5,6 +5,7 @@ import { baseURL, config } from "./services";
 import Nav from "./components/Nav";
 import Boba from "./components/Boba";
 import Form from "./components/Form";
+import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
         <Form bobas={bobas} setToggleFetch={setToggleFetch} />
         </Route>
       </div>
-
+      <Footer />
     </div>
   );
 }
