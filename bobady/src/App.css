@@ -45,6 +45,7 @@ body {
   height: 650px;
   overflow: scroll;
   margin-left: 20px;
+  overflow-x: hidden;
 }
 
 .form-div{
@@ -93,4 +94,8 @@ body {
 
 .boba-div h4 {
   font-family: 'Raleway', sans-serif;
+}
+
+.Footer {
+  margin-top: 100px;
 }
