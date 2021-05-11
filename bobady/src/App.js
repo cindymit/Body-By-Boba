@@ -5,7 +5,6 @@ import { baseURL, config } from "./services";
 import Home from "./components/Home";
 import Drinks from "./components/Drinks";
 import Filter from "./components/Filter";
-import Boba from "./components/Boba";
 import "./App.css";
 
 function App() {

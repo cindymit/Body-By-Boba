@@ -1,4 +1,5 @@
 import Boba from "./Boba";
+import Nav from "./Nav";
 import { useState } from "react";
 
 function Filter(props) {
@@ -10,15 +11,24 @@ function Filter(props) {
   console.log(searchInput)
 
   return (
-    <div>
+    <div className="Filter">
+      <header>
+        <Nav />
+      </header>
+
+      <div className="searchbar">
       <label htmlFor="search"></label>
-      <input type="text" value={search} placeholder="search" onChange={(e) => setSearch(e.target.value)}/>
-      <button type="submit">press</button>
+        <input type="text" value={search} placeholder="search" onChange={(e) => setSearch(e.target.value)} />
+        <button type="submit">Filter</button>
+      </div>
+
+      <div className="filter-results">
       {
         searchInput.map((boba) => {
           return <Boba boba={boba}/>
         })
-      }
+        }
+      </div>
     </div>
   )
 }
