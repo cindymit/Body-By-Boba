@@ -10,7 +10,7 @@ function Drinks(props) {
       <header>
         <Nav />
       </header>
-      <p>
+      <p className="intro">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem
         dolor, aliquet ut posuere vitae, pretium nec massa. Ut varius sapien vel
         velit mollis facilisis. Cras leo diam, consequat id nulla sed, imperdiet

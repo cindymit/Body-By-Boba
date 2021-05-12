@@ -102,8 +102,8 @@ body {
 
 /* //////////// MEDIA QUERIES //////////// */
 
-/* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
+/* Mobile */ 
+@media only screen and (max-width: 600px) {
   .data {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -123,23 +123,8 @@ body {
   }
 }
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-  body {
-    background-color: lightgreen;
-  }
-}
+/* Tablets */
+@media only screen and (min-width: 768px) {}
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-  body {
-    background-color: coral;
-  }
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-  body {
-    background-color: plum;
-  }
-}
+/* Desktops */
+@media only screen and (min-width : 992px) {}
