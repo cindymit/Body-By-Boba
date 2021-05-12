@@ -6,6 +6,22 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.homepage-logo {
+  max-width: 750px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.homepage-logo:hover {
+  opacity: 0.5;
+}
+
 .navbar {
   text-align: right;
   height: 150px;
@@ -28,15 +44,15 @@ body {
   width: 150px;
 }
 
-.app-title {
+p {
   display: flex;
-  justify-content: space-evenly;
-  font-size: 35px;
+  justify-content: center;
+  margin: 0 10%;
 }
 
 .data {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
 }
 
 .data-div{
@@ -71,6 +87,11 @@ body {
 .form-div h3 {
   font-family: 'Caveat', cursive;
   font-size: 25px; 
+}
+
+select {
+  height: 21px;
+  /* border-radius: 6px; */
 }
 
 .btn {

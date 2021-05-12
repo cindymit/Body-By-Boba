@@ -101,7 +101,7 @@ function Form(props) {
             <option value="75%">75%</option>
             <option value="100%">100%</option>
           </select>
-          <button type="submit" className="btn">DRINK UP!</button>
+          <button type="submit" className="btn">🧋 DRINK UP! 🧋</button>
         </form>
       </div>
     )

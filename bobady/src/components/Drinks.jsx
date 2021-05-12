@@ -10,14 +10,8 @@ function Drinks(props) {
       <header>
         <Nav />
       </header>
-      <p className="intro">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem
-        dolor, aliquet ut posuere vitae, pretium nec massa. Ut varius sapien vel
-        velit mollis facilisis. Cras leo diam, consequat id nulla sed, imperdiet
-        tempor mi. Ut sollicitudin nisi volutpat nunc lacinia efficitur. Nullam
-        interdum pharetra nisl, ut suscipit lectus scelerisque lobortis. Proin
-        sit amet odio velit. Maecenas mattis diam non arcu eleifend, et congue
-        magna sollicitudin.
+      <p>
+      'Body by Boba' is an app that bring's Boba lovers together! Body by Boba knows that you work hard, and a result YOU SHOULD DRINK (Boba) HARDER! Submit your favorite drink in the form to help others discover new favorites! Click on the filter link to go through the current entries and find combos that sound and tastes good to you! Let's get you started on a new boba journey!
       </p>
       <div className="data">
         <Form bobas={props.bobas} setToggleFetch={props.setToggleFetch} />
