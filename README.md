@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Body by Boba (Bobady)
+[Body by Boba (Bobady)](https://body-by-boba.netlify.app/)
 
 ## Project Description
 
