@@ -2,8 +2,8 @@ import { Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "./services";
+import Welcome from "./components/Welcome";
 import Home from "./components/Home";
-import Drinks from "./components/Drinks";
 import Filter from "./components/Filter";
 import "./App.css";
 
@@ -23,10 +23,10 @@ function App() {
   return (
     <div className="App">
       <Route exact path="/">
-        <Home />
+        <Welcome />
       </Route>
       <Route path="/home">
-        <Drinks bobas={bobas} setToggleFetch={setToggleFetch} />
+        <Home bobas={bobas} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/filter">
         <Filter bobas={bobas} />
