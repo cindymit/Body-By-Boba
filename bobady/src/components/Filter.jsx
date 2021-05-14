@@ -8,7 +8,6 @@ function Filter(props) {
   const searchInput = props.bobas.filter((boba) => {
     return boba.fields.base.toLowerCase().includes(search.toLowerCase()) || boba.fields.milk.toLowerCase().includes(search.toLowerCase()) || boba.fields.topping.toLowerCase().includes(search.toLowerCase()) || boba.fields.sugar.toLowerCase().includes(search.toLowerCase()) 
   });
-  console.log(searchInput)
 
   return (
     <div className="Filter">
