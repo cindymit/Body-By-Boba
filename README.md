@@ -81,7 +81,7 @@
 |July 14| Pseudocode / actual code | Complete
 |July 15| Initial Clickable Model  | Complete
 |July 16| MVP | Complete
-|July 17| Presentations | Incomplete
+|July 17| Presentations | Complete
 
 ## Timeframes
 
