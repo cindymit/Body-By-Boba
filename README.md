@@ -67,6 +67,7 @@
 #### PostMVP  
 
 - Allow users to filter by search input.
+- Add favicon.
 - Link second API for user reviews.
 - Add history of boba page.
 
@@ -74,12 +75,12 @@
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
+|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|July 13| Project Approval | Complete
+|July 13| Core Application Structure (HTML, CSS, etc.) | Complete
+|July 14| Pseudocode / actual code | Complete
+|July 15| Initial Clickable Model  | Complete
+|July 16| MVP | Complete
 |July 17| Presentations | Incomplete
 
 ## Timeframes
@@ -99,7 +100,8 @@
 | CSS for visual styling | H | 3hrs| - | - |
 | Grid/Flexbox for app layout styling | H | 3hrs| - | - |
 | Responsive design (desktop, tablet, and mobile) | H | 3hrs| - | - |
-| Total | H | 35hrs| - | - | 
+| PMVP | H | 3hrs| - | - |
+| Total | H | 38hrs| - | - | 
 
 ## SWOT Analysis
 
