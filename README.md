@@ -95,13 +95,13 @@
 | Airtable AXIOS call/data render | H | 3hrs| 4hrs | 4hrs |
 | Airtable AXIOS Post request | H | 3hrs| 3hrs | 3hrs |
 | "Create-A-Recipe" Form | H | 3hrs| 3hrs | 3hrs |
-| User and drink input area | H | 2hrs| 2hrs | 2hrs |
+| User and drink input area | H | 2hrs| 1hrs | 1hrs |
 | Base/Milk/Topping/Sugar % drop down menus | H | 3hrs| 4hrs | 4hrs |
 | CSS for visual styling | H | 3hrs| 3hrs | 3hrs |
 | Grid/Flexbox for app layout styling | H | 3hrs| 3hrs | 3hrs |
 | Responsive design (desktop, tablet, and mobile) | H | 3hrs| 3hrs | 3hrs |
 | PMVP | H | 3hrs| 4hrs | 4hrs |
-| Total | H | 38hrs| 39hrs | 39hrs | 
+| Total | H | 38hrs| 38hrs | 38hrs | 
 
 ## SWOT Analysis
 
